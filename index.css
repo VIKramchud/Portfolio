@@ -93,7 +93,7 @@ html {
 }
 
 #page1 {
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     position: relative;
     padding-top: 5rem;
@@ -166,7 +166,7 @@ html {
 
 #page3 {
     margin-top: -1rem;
-    width: 100%;
+   
     height: 100%;
     background-color: #222222;
     padding: 4rem;
@@ -295,4 +295,78 @@ html {
    
     font-size: 1.5rem;
     margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 768px){
+
+    .logo{
+        
+        line-height: 16px;
+        top: 3%;
+    }
+    #page1{
+        margin-top: -1rem;
+        height: 100%;
+    }
+    .resume-button{
+        
+        top: 3%;
+    }
+    #page1 img {
+        object-fit: cover;
+        object-position: center;
+        height: 15rem;
+        width: 17rem;
+    }
+    .scroll-text {
+
+        top: 100%;
+
+    }
+    .scroll-text h3 {
+        font-size: 72px;
+
+    }
+    #page2 {
+        margin-top: -1rem;
+        height: 100%;
+        background-color: #111111;
+        padding: 7rem 0rem 2rem 0rem;
+    }
+    .contact{
+        display: block;
+        padding: 2rem;
+    }
+    .contact_11 h2, .contact_112 h2, .contact_113 h2 {
+        font-size: 23vw;
+    }
+    .contact_11, .contact_112, .contact_113{
+      margin: 0;
+    }
+    .contact_112 h2:nth-child(3) {
+        margin-right: 2rem;
+    }
+    .socialmedia img:nth-child(1), .socialmedia img:nth-child(3) {
+        margin-left: 2rem;
+    }
+    .socialmedia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .socialmedia img:nth-child(2) {
+        margin: 0rem;
+    }
+    .socialmedia img {
+        display: block;
+        width: 5rem;
+        height: 5rem;
+        object-fit: cover;
+    }
+    .socialmedia img:nth-child(1), .socialmedia img:nth-child(3){
+        margin: 0;
+    }
+    .contact_message{
+        margin-left: 0;
+    }
 }
